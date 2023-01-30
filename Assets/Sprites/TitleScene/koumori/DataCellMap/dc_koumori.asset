@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 194737b46e04ff84a936435d5601662f, type: 3}
+  m_Name: dc_koumori
+  m_EditorClassIdentifier: 
+  Version: 65537
+  DataProject: {fileID: 11400000, guid: d348e89d54b05604bba4009fc25f916d, type: 2}
+  TableCellMap:
+  - Name: koumori
+    SizeOriginal: {x: 1024, y: 1024}
+    TableCell:
+    - Name: leftwing
+      Rectangle:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 410
+        height: 420
+      Pivot: {x: 0, y: 212}
+      Mesh:
+        TableCoordinate: []
+        TableIndexVertex: 
+    - Name: rightwing
+      Rectangle:
+        serializedVersion: 2
+        x: 416
+        y: 4
+        width: 410
+        height: 420
+      Pivot: {x: 410, y: 212}
+      Mesh:
+        TableCoordinate: []
+        TableIndexVertex: 
+    - Name: face
+      Rectangle:
+        serializedVersion: 2
+        x: 4
+        y: 426
+        width: 191
+        height: 421
+      Pivot: {x: 96.00004, y: 212.00003}
+      Mesh:
+        TableCoordinate: []
+        TableIndexVertex: 
